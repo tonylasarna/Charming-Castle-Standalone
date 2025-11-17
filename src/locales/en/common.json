@@ -1,0 +1,105 @@
+{
+  "brand": "Charming Castle",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "rentals": "Rentals",
+    "gallery": "Gallery",
+    "about": "About",
+    "quote": "Get a Quote"
+  },
+  "hero": {
+    "title": "Luxury Event Rentals & Styling",
+    "subtitle": "Transform weddings, showers, and celebrations with statement rentals and tailored designs across Central Florida.",
+    "cta": "Request a Quote",
+    "secondary": "View Rentals"
+  },
+  "services": {
+    "title": "Signature Services",
+    "items": {
+      "design": {
+        "title": "Event Design",
+        "description": "Full-service styling with cohesive color stories, florals, and guest experiences."
+      },
+      "rentals": {
+        "title": "Luxury Rentals",
+        "description": "Curated throne chairs, backdrops, marquees, and accent decor with white-glove delivery."
+      },
+      "coordination": {
+        "title": "Day-Of Coordination",
+        "description": "Timelines, vendor management, and calm on-the-day support so you can celebrate."
+      }
+    }
+  },
+  "rentals": {
+    "title": "Featured Rentals",
+    "cta": "View Full Catalog",
+    "mobile_hint": "Swipe to explore signature pieces"
+  },
+  "gallery": {
+    "title": "Recent Celebrations",
+    "cta": "See More Moments"
+  },
+  "about": {
+    "title": "About Charming Castle",
+    "body": "We are a boutique team obsessed with thoughtful details, dependable logistics, and creating celebrations that feel like you."
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "intro": "Tell us about your event and we will respond with availability, recommendations, and a tailored estimate within 24 hours.",
+    "eventType": "Event Type",
+    "eventDate": "Event Date",
+    "location": "Venue / Location",
+    "budget": "Budget Range",
+    "guests": "Guest Count",
+    "rentalNeeds": "Rentals or services you are interested in",
+    "name": "Your Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Notes",
+    "submit": "Send Request",
+    "success": "Thank you! Your request was sent.",
+    "error": "Something went wrong. Please try again.",
+    "required": "This field is required"
+  },
+  "contact": {
+    "title": "Contact & Details",
+    "phone": "Call",
+    "email": "Email",
+    "hours": "Studio Hours",
+    "area": "Serving Central Florida and destination events"
+  },
+  "footer": {
+    "cta": "Ready to design your event?",
+    "ctaButton": "Plan with Charming Castle",
+    "copyright": "All rights reserved."
+  },
+  "lang": {
+    "label": "Language",
+    "en": "English",
+    "es": "Español"
+  },
+  "seo": {
+    "homeTitle": "Charming Castle | Luxury Event Rentals & Styling",
+    "homeDescription": "Charming Castle offers luxury throne chairs, backdrops, and event design services across Central Florida.",
+    "servicesTitle": "Services | Charming Castle Event Design",
+    "servicesDescription": "Explore full-service event design, day-of coordination, and curated rentals from Charming Castle.",
+    "rentalsTitle": "Rentals Catalog | Charming Castle",
+    "rentalsDescription": "Browse throne chairs, backdrops, marquees, and decor rentals with white-glove delivery.",
+    "galleryTitle": "Event Gallery | Charming Castle",
+    "galleryDescription": "See weddings, showers, and celebrations styled by Charming Castle.",
+    "aboutTitle": "About Us | Charming Castle",
+    "aboutDescription": "Meet the Charming Castle team and learn how we support your celebration.",
+    "quoteTitle": "Request a Quote | Charming Castle",
+    "quoteDescription": "Share your event details for a tailored Charming Castle quote and availability."
+  },
+  "consent": {
+    "message": "We use cookies to personalize content, measure traffic, and improve your experience.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "catalog": {
+    "cta": "Request this item",
+    "priceFrom": "Starting at"
+  }
+}
