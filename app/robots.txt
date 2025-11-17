@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://charming-castle.example.com/sitemap.xml

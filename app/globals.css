@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-height: 80px;
+  color-scheme: only light;
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, rgba(233, 95, 147, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(214, 197, 240, 0.15), transparent 35%),
+    #fffafc;
+  min-height: 100vh;
+}
+
+.container-balanced {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card-glass {
+  @apply rounded-3xl border border-white/60 bg-white/70 shadow-glow backdrop-blur-lg;
+}
+
+.section-title {
+  @apply text-3xl font-display font-semibold text-charcoal sm:text-4xl;
+}
+
+.section-subtitle {
+  @apply mt-2 text-lg text-slate-700;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-rose-500 via-gold to-lavender bg-clip-text text-transparent;
+}
