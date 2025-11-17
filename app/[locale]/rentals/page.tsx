@@ -8,6 +8,9 @@ import { BadgeCheck, Heart, Search } from 'lucide-react';
 export default function RentalsPage() {
   const [query, setQuery] = useState('');
   const [wishlist, setWishlist] = useState<string[]>([]);
+  const [matchmakerStatus, setMatchmakerStatus] = useState<{ state: 'idle' | 'loading' | 'success' | 'error'; message?: string }>({
+    state: 'idle'
+  });
 
   const filtered = useMemo(() => {
     return rentals.filter((item) => item.name.toLowerCase().includes(query.toLowerCase()));
@@ -15,6 +18,34 @@ export default function RentalsPage() {
 
   const toggleWishlist = (id: string) => {
     setWishlist((prev) => (prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]));
+  };
+
+  const handleMatchmaker = async () => {
+    setMatchmakerStatus({ state: 'loading', message: 'Matching rentals to your wishlist...' });
+
+    try {
+      const response = await fetch('/api/ai/product-match', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ preferences: { wishlist } })
+      });
+
+      if (!response.ok) {
+        throw new Error('Request failed');
+      }
+
+      const data = await response.json();
+      const suggestedNames = data.matches?.map((match: { name: string }) => match.name).join(', ');
+
+      setMatchmakerStatus({
+        state: 'success',
+        message: suggestedNames ? `Suggested matches: ${suggestedNames}` : 'No matches found. Try adding items to your wishlist.'
+      });
+    } catch (error) {
+      setMatchmakerStatus({ state: 'error', message: 'Matchmaker is unavailable right now. Please try again.' });
+    }
   };
 
   return (
@@ -33,8 +64,17 @@ export default function RentalsPage() {
             placeholder="Search rentals"
           />
         </div>
-        <CTAButton href="/api/ai/product-match" className="text-sm">Run AI matchmaker</CTAButton>
+        <CTAButton onClick={handleMatchmaker} className="text-sm" disabled={matchmakerStatus.state === 'loading'}>
+          {matchmakerStatus.state === 'loading' ? 'Matching...' : 'Run AI matchmaker'}
+        </CTAButton>
       </div>
+      {matchmakerStatus.state !== 'idle' && matchmakerStatus.message && (
+        <div
+          className={`text-sm ${matchmakerStatus.state === 'error' ? 'text-rose-600' : 'text-slate-700'} bg-white/70 border border-charcoal/10 rounded-xl px-4 py-3`}
+        >
+          {matchmakerStatus.message}
+        </div>
+      )}
       <div className="grid gap-4 md:grid-cols-3">
         {filtered.map((rental) => (
           <div key={rental.id} className="card-glass p-5 space-y-2">
