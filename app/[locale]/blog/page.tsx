@@ -10,7 +10,7 @@ export default function BlogPage() {
       </div>
       <div className="grid gap-4 md:grid-cols-2">
         {blogPosts.map((post) => (
-          <Link key={post.slug} href={`/blog/${post.slug}`} className="card-glass p-6 block">
+          <Link key={post.slug} href={`./${post.slug}`} className="card-glass p-6 block">
             <p className="font-display text-xl text-charcoal">{post.title}</p>
             <p className="text-sm text-slate-500 mt-1">{new Date(post.date).toLocaleDateString()}</p>
             <p className="text-slate-700 mt-2">{post.excerpt}</p>

@@ -50,9 +50,9 @@ export const rentals = [
 ];
 
 export const portfolio = [
-  { title: 'Sweet 16 Dreamscape', category: 'Teens', image: '/portfolio/1.jpg' },
-  { title: 'Corporate Summer Social', category: 'Corporate', image: '/portfolio/2.jpg' },
-  { title: 'Baptism in Blush', category: 'Faith', image: '/portfolio/3.jpg' }
+  { title: 'Sweet 16 Dreamscape', category: 'Teens', image: '/images/gallery-garden.jpg' },
+  { title: 'Corporate Summer Social', category: 'Corporate', image: '/images/gallery-quince.jpg' },
+  { title: 'Baptism in Blush', category: 'Faith', image: '/images/gallery-shower.jpg' }
 ];
 
 export const blogPosts = [

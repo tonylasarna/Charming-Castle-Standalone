@@ -8,9 +8,10 @@ type Props = {
   className?: string;
   onClick?: () => void;
   type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
 };
 
-export function CTAButton({ href, children, className, onClick, type = 'button' }: Props) {
+export function CTAButton({ href, children, className, onClick, type = 'button', disabled }: Props) {
   const shared = cn(
     'inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-rose-500 via-gold to-lavender px-5 py-3 text-white shadow-glow transition-transform hover:-translate-y-0.5',
     className
@@ -25,7 +26,7 @@ export function CTAButton({ href, children, className, onClick, type = 'button' 
   }
 
   return (
-    <button type={type} className={shared} onClick={onClick}>
+    <button type={type} className={shared} onClick={onClick} disabled={disabled}>
       {children}
     </button>
   );
