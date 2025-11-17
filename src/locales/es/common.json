@@ -1,0 +1,105 @@
+{
+  "brand": "Charming Castle",
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "rentals": "Rentas",
+    "gallery": "Galería",
+    "about": "Nosotros",
+    "quote": "Cotización"
+  },
+  "hero": {
+    "title": "Rentas y ambientación de lujo",
+    "subtitle": "Transformamos bodas, baby showers y celebraciones con piezas icónicas y diseños personalizados en Florida Central.",
+    "cta": "Solicitar cotización",
+    "secondary": "Ver rentas"
+  },
+  "services": {
+    "title": "Servicios principales",
+    "items": {
+      "design": {
+        "title": "Diseño de eventos",
+        "description": "Estilismo completo con paletas de color, florales y experiencias para tus invitados."
+      },
+      "rentals": {
+        "title": "Rentas de lujo",
+        "description": "Tronos, backdrops, letras y decoración con entrega y montaje premium."
+      },
+      "coordination": {
+        "title": "Coordinación del día",
+        "description": "Cronogramas, gestión de proveedores y apoyo tranquilo para que disfrutes tu evento."
+      }
+    }
+  },
+  "rentals": {
+    "title": "Rentas destacadas",
+    "cta": "Ver catálogo completo",
+    "mobile_hint": "Desliza para explorar piezas icónicas"
+  },
+  "gallery": {
+    "title": "Celebraciones recientes",
+    "cta": "Ver más momentos"
+  },
+  "about": {
+    "title": "Sobre Charming Castle",
+    "body": "Somos un equipo boutique obsesionado con los detalles, la logística confiable y crear celebraciones que se sientan auténticas."
+  },
+  "quote": {
+    "title": "Solicitar una cotización",
+    "intro": "Cuéntanos sobre tu evento y responderemos con disponibilidad, recomendaciones y un estimado personalizado en menos de 24 horas.",
+    "eventType": "Tipo de evento",
+    "eventDate": "Fecha del evento",
+    "location": "Lugar / venue",
+    "budget": "Presupuesto",
+    "guests": "Número de invitados",
+    "rentalNeeds": "Rentas o servicios de interés",
+    "name": "Nombre",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "message": "Notas",
+    "submit": "Enviar solicitud",
+    "success": "¡Gracias! Tu solicitud fue enviada.",
+    "error": "Algo salió mal. Intenta nuevamente.",
+    "required": "Este campo es obligatorio"
+  },
+  "contact": {
+    "title": "Contacto y detalles",
+    "phone": "Llamar",
+    "email": "Correo",
+    "hours": "Horario de estudio",
+    "area": "Atendemos Florida Central y eventos destino"
+  },
+  "footer": {
+    "cta": "¿Listo para diseñar tu evento?",
+    "ctaButton": "Planear con Charming Castle",
+    "copyright": "Todos los derechos reservados."
+  },
+  "lang": {
+    "label": "Idioma",
+    "en": "English",
+    "es": "Español"
+  },
+  "seo": {
+    "homeTitle": "Charming Castle | Rentas y diseño de eventos de lujo",
+    "homeDescription": "Charming Castle ofrece tronos, backdrops y servicios de diseño de eventos en Florida Central.",
+    "servicesTitle": "Servicios | Charming Castle", 
+    "servicesDescription": "Descubre diseño integral, coordinación y rentas seleccionadas de Charming Castle.",
+    "rentalsTitle": "Catálogo de rentas | Charming Castle",
+    "rentalsDescription": "Explora tronos, backdrops, letras y decoración con entrega premium.",
+    "galleryTitle": "Galería de eventos | Charming Castle",
+    "galleryDescription": "Mira bodas, showers y celebraciones estilizadas por Charming Castle.",
+    "aboutTitle": "Nosotros | Charming Castle",
+    "aboutDescription": "Conoce al equipo de Charming Castle y cómo apoyamos tu celebración.",
+    "quoteTitle": "Solicitar cotización | Charming Castle",
+    "quoteDescription": "Comparte los detalles de tu evento para recibir una cotización personalizada."
+  },
+  "consent": {
+    "message": "Usamos cookies para personalizar contenido, medir tráfico y mejorar tu experiencia.",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
+  "catalog": {
+    "cta": "Solicitar este artículo",
+    "priceFrom": "Desde"
+  }
+}
