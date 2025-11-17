@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "rentals": "Rentas",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Decoración elevada para celebraciones inolvidables",
+    "subtitle": "El arte de globos, alquileres de lujo y estilismo a medida en Forest Hill, con un asistente de decoración con IA para diseñar en minutos.",
+    "cta": "Planear con la IA",
+    "secondary": "Ver servicios"
+  },
+  "cta": {
+    "quote": "Comenzar una cotización",
+    "call": "Agendar llamada de diseño"
+  }
+}

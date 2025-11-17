@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "rentals": "Rentals",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Elevated décor for unforgettable celebrations",
+    "subtitle": "Forest Hill's premier balloon artistry, luxury rentals, and bespoke styling — now with an AI décor assistant to craft your vision in minutes.",
+    "cta": "Plan with the AI assistant",
+    "secondary": "View services"
+  },
+  "cta": {
+    "quote": "Start a quote",
+    "call": "Book a design call"
+  }
+}
